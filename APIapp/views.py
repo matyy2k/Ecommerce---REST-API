@@ -6,6 +6,8 @@ from .serializers import BookSerializers, CategorySerializers, ProductSerializer
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework import viewsets
 
+#test2
+
 
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
