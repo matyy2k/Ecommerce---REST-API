@@ -20,7 +20,12 @@ To do this, you need authorization, which consists in generating a special token
 
 ## How to run
 
+* You can create applications locally on your computer:
 
+1) git clone https://github.com/matyy2k/Ecommerce---REST-API.git
+2) pip install -r requirements-dev.txt
+3) python manage.py migrate
+4) python manage.py runserver
 
 
 
