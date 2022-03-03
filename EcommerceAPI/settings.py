@@ -23,7 +23,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ['https://ecommerce-restapi-djangoapp.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['https://ecommerce-restapi-djangoapp.herokuapp.com', 'localhost:8000']
 
 
 # Application definition
@@ -54,6 +54,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:8000',
     'http://localhost:3000',
     'https://web.postman.co',
+    'https://ecommerce-restapi-djangoapp.herokuapp.com',
 ]
 
 
