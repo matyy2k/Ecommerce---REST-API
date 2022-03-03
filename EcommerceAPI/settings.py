@@ -56,8 +56,8 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:8000',
     'http://localhost:3000',
     'https://web.postman.co',
-    'https://ecommerce-restapi-djangoapp.herokuapp.com',
-    'ecommerce-restapi-djangoapp.herokuapp.com',
+    'https://ecommerce-restapi-djangoapp.herokuapp.com'
+    # 'ecommerce-restapi-djangoapp.herokuapp.com',
 ]
 
 
@@ -108,11 +108,11 @@ WSGI_APPLICATION = 'EcommerceAPI.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'degc6jnb62ngrg',
-        'HOST': 'ec2-176-34-105-15.eu-west-1.compute.amazonaws.com',
+        'NAME': 'dbp7h5cjkkc645',
+        'HOST': 'ec2-54-194-147-61.eu-west-1.compute.amazonaws.com',
         'PORT': 5432,
-        'USER': 'jdkdjffvqwfucg',
-        'PASSWORD': 'f434325d9514ae424db580ca4d211b9b03d0f2fe0248db2f4b3f60c4a0701e92',
+        'USER': 'kpkagwkcgpxafv',
+        'PASSWORD': '04a962587dbcfa3ad0a3fd73f457535eda3e863e1c4774ba20f689d8318ab43d',
     }
 }
 
