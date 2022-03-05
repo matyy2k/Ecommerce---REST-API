@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 from pathlib import Path
 from decouple import config
+import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -116,6 +117,7 @@ DATABASES = {
         'PASSWORD': '04a962587dbcfa3ad0a3fd73f457535eda3e863e1c4774ba20f689d8318ab43d',
     }
 }
+
 
 
 # Password validation
