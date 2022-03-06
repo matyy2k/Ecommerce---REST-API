@@ -25,7 +25,28 @@ To do this, you need authorization, which consists in generating a special token
 1) git clone https://github.com/matyy2k/Ecommerce---REST-API.git
 2) pip install -r requirements-dev.txt
 3) python manage.py migrate
-4) python manage.py runserver
+4) python manage.py runserver  
+  
+* You can open the website online:
+https://ecommerce-restapi-djangoapp.herokuapp.com/
+
+I suggest using 'Postman' application.  
+
+ATTENTION  
+The token is required for individual POST requests. The user must be authorized or has access only to the GET methods.  
+
+Available methods:
+
+| Link | GET | POST |
+| --- | --- |  --- |
+| https://ecommerce-restapi-djangoapp.herokuapp.com/api/v1/users/ | List of users | Add new user (type username and password)
+| https://ecommerce-restapi-djangoapp.herokuapp.com/api/v1/auth/ | NOT ALLOWED | Get an individual token
+| https://ecommerce-restapi-djangoapp.herokuapp.com/api/v1/categories/ | Category list for the user | Add new category
+| https://ecommerce-restapi-djangoapp.herokuapp.com/api/v1/books/ | Books list for the user | Add new book
+| https://ecommerce-restapi-djangoapp.herokuapp.com/api/v1/products/ | Products list for the user | Add new product
+| https://ecommerce-restapi-djangoapp.herokuapp.com/api/v1/carts/ | Cart for the user | First define books and products
+
+
 
 
 
