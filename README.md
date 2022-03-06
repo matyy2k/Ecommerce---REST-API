@@ -41,7 +41,7 @@ Available methods:
 | --- | --- |  --- |
 | https://ecommerce-restapi-djangoapp.herokuapp.com/api/v1/users/ | List of users | Add new user (type username and password)
 | https://ecommerce-restapi-djangoapp.herokuapp.com/api/v1/auth/ | NOT ALLOWED | Get an individual token
-| https://ecommerce-restapi-djangoapp.herokuapp.com/api/v1/categories/ | Category | Add new category
+| https://ecommerce-restapi-djangoapp.herokuapp.com/api/v1/categories/ | Category list | Add new category
 | https://ecommerce-restapi-djangoapp.herokuapp.com/api/v1/books/ | Books list | Add new book
 | https://ecommerce-restapi-djangoapp.herokuapp.com/api/v1/products/ | Products list | Add new product
 | https://ecommerce-restapi-djangoapp.herokuapp.com/api/v1/carts/ | Cart | First define books and products
